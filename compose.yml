@@ -2,6 +2,7 @@ version: "3.9"
 
 services:
   devopsdb:
+    container_name: devopsdb
     image: vasuch2626/db:v1
     ports:
       - "3306:3306"
